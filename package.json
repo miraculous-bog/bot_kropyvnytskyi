@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "dependencies": {
     "dotenv": "^16.0.3",
     "follow-redirects": "^1.15.2",
     "id-generator": "^1.1.0",
     "location-href": "^1.0.0",
-    "node-telegram-bot-api": "^0.56.0",
-    "nodemon": "^2.0.15"
+    "node-telegram-bot-api": "^0.56.0"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "author": "miraculous <bogdan9110@gmail.com>",
   "license": "ISC"
